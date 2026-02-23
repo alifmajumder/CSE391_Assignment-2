@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FST App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="top-nav">
+        <a href="https://alifmajumder.github.io/CSE391/" target="_blank" id="portfolio-link">Portfolio</a>
+    </nav>
+
+    <main id="main-wrapper">
+        <div class="app-section" id="fortune-section">
+            <div id="fortune-container">
+                <p id="fortune-text">Peering into the future...</p>
+            </div>
+            
+            <div id="fortune-controls">
+                <button id="btn-color">Change Text Color</button>
+                <button id="btn-bg">Change Background</button>
+                <button id="btn-border">Change Border Color</button>
+                <button id="btn-font">Change Font Style</button>
+            </div>
+        </div>
+
+        <div class="app-section" id="stopwatch-section">
+            <h2>Stopwatch</h2>
+            <div id="stopwatch-display">0</div>
+            <div id="stopwatch-controls">
+                <button id="btn-start">Start</button>
+                <button id="btn-stop">Stop</button>
+                <button id="btn-reset">Reset</button>
+            </div>
+        </div>
+
+        <div class="app-section" id="todo-section">
+            <h2>To-Do List</h2>
+            <div id="todo-controls">
+                <input type="text" id="todo-input" placeholder="Enter a new task...">
+                <button id="btn-add-todo">Add Task</button>
+            </div>
+            <ul id="todo-list"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MD Mubtasim Majumder Alif</p>
+        <p id="footer-info"></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
